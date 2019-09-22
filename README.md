@@ -1,5 +1,5 @@
 # guardian_headlines
-Simple Python scraper for Guardian API
+Python Sentiment analysis of Guardian headlines
 
 # Installation
 
@@ -21,6 +21,7 @@ Add your API Key to API_KEY in settings.py
 `python run.py [query] [from date] [pages]`
 
 Each page contains 10 results.
+The script returns an average sentiment as well as a .csv file in its directory that you can use for further data visualisation.
 
 # Example
 
