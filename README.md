@@ -18,12 +18,14 @@ Add your API Key to API_KEY in settings.py
 
 # Usage
 
-`python run.py [query] [from date] [results]`
+`python run.py [query] [from date] [pages]`
+
+Each page contains 10 results.
 
 # Example
 
-python run.py arsenal 2018-01-01 50
+python run.py brexit 2018-01-01 100
 
-Returns 50 articles with a headline containing 'arsenal' starting January 1st 2018
+Returns 1000 articles with a headline containing 'brexit' starting January 1st 2018
 
 ![Example](https://github.com/clementbriens/guardian_headlines/blob/master/sentiment%20brexit.png)
