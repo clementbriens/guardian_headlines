@@ -26,4 +26,4 @@ python run.py arsenal 2018-01-01 50
 
 Returns 50 articles with a headline containing 'arsenal' starting January 1st 2018
 
-!https://github.com/clementbriens/guardian_headlines/sentiment%20brexit.png
+![Example](https://github.com/clementbriens/guardian_headlines/blob/master/sentiment%20brexit.png)
